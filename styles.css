@@ -1,0 +1,224 @@
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+#first-button{
+    margin-left: 42.8rem;
+    margin-top: 6rem;
+    position: relative;
+    color: white;
+    background-color: #FF5D73;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    left: -2.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    box-shadow: 10px 10px #000000;
+    transition: all 0.3s ease;
+    top: -4rem;
+}
+
+#first-button:hover{
+    background-color: #FF4360;
+    transform: scale(1.09);
+    transition: all 0.4s ease;
+}
+
+#heading-section{
+  background-image: url(Images/banner1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 72%;
+}
+
+#heading-image{
+    width: 68rem;
+    margin-left: 14rem;
+    margin-right: 14rem;
+}
+
+/* absolute sm:-left-56 md:-left-56 lg:-left-1 */
+
+#icon-1{
+   left: -42.5rem;
+   top: -8rem;
+}
+#icon-2{
+   left: 19.5rem;
+   top: -8rem;
+   transition: all 0.3s ease;
+}
+
+#icon-1:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#icon-2:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#shop-all-btn{
+   margin-left: 46.5rem;
+   margin-top: 2rem;
+   position: relative;
+   color: white;
+   background-color: #FF5D73;
+   padding: 1rem 1rem;
+   border-radius: 1rem;
+   left: -2.5rem;
+   font-size: 1.8rem;
+   font-weight: bold;
+   box-shadow: 10px 10px #000000;
+   transition: all 0.3s ease;
+}
+
+#shop-all-btn:hover{
+   background-color: #FF4360;
+   transform: scale(1.09);
+   transition: all 0.4s ease;
+}
+
+#meet-section{
+  margin-bottom: 30rem;
+}
+
+#meet-sec-img{
+   width: 65%;
+   margin-left: 16rem;
+   margin-right: 0;
+   top: -6rem;
+}
+
+#section-team-picture{
+  margin-left: 27rem;
+  margin-top: 2rem;
+  gap: 6rem;
+}
+
+#section-headline{
+  margin-top: 2rem;
+  font-size: 3.5rem;
+  text-shadow: 6px 6px #000000 ;
+}
+
+#facebook-link{
+  
+  background-color: white;
+}
+
+i{
+  font-size: 25px;
+  margin-right: 5px;
+  position: relative;
+  color: white;
+  top: 6.4rem;
+  left: -0.1rem;
+  background-color: #FF4360;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#icons{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #e3e3e3;
+  padding: 0.7rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+i:hover{
+  background-color: #FF4360;
+  transform: scale(1.09);
+  transition: all 0.4s ease;
+}
+
+.heheboiimage{
+  width: 30%;
+  margin-top: 1rem;
+}
+
+.fill-current:hover{
+  fill: #FF4360;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 2rem;
+}
+
+
+/* 2xl */
+@media (max-width: 1536px) {
+    .container {
+      max-width: 1280px;
+    }
+  }
+  
+  /* xl */
+  @media (max-width: 1280px) {
+    .container {
+      max-width: 1024px;
+    }
+  }
+  
+  /* lg */
+  @media (max-width: 1024px) {
+    .container {
+      max-width: 768px;
+    }
+  }
+  
+  /* md */
+  @media (max-width: 768px) {
+    .container {
+      max-width: 640px;
+    }
+  }
+  
+  /* sm */
+  @media (max-width: 640px) {
+    .container {
+      max-width: 475px;
+    }
+  }
+  
+  /* xs */
+  @media (max-width: 475px) {
+    .container {
+      width: 100%;
+    }
+
+    #heading-image{
+        left: -14rem;
+    }
+
+    #headline-heading-1{
+        font-size: 23px;
+        top: -2rem;
+        text-align: center;
+    }
+
+    #heading-paragraph{
+        font-size: 10px;
+        top: -5rem;
+        color: white !important;
+        text-align: center;
+    }
+
+    #first-button{
+        font-size: 1rem;
+        margin-left: 5.4rem;
+        margin-top: 4rem;
+        left: 2rem;
+        top: -8rem;
+    }
+
+  }
