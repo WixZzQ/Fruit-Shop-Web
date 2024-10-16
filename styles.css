@@ -34,6 +34,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 72%;
+  
 }
 
 #heading-image{
@@ -152,6 +153,13 @@ i:hover{
   cursor: pointer;
   transition: all 0.3s ease;
   width: 2rem;
+}
+
+#fruits:hover{
+  fill: #FF4360;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #e5e5e5;
 }
 
 
